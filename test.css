@@ -1,0 +1,28 @@
+html{
+  background-color: white;  
+}
+body{
+    padding: 20px;
+    width: 500px;
+    background-color: #efefef;
+}
+
+h1{
+ color: darkslategray;
+}
+p,
+ul{
+    font-weight: bold;
+}
+
+ul{
+   color: maroon; 
+}
+.special {
+    color:blue;
+}
+
+h1+p .special{
+    color: magenta;
+     border-bottom: 5px solid aqua;    
+}

@@ -1,0 +1,36 @@
+h1 {
+  color: red;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em{
+    color: magenta;
+}
+
+h1+p{
+    font-size: 200%;
+}
+
+a:link{
+    color:pink;
+}
+
+a:visited{
+    color: purple;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a{font-weight: bold
+}
+
+h1 + p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
