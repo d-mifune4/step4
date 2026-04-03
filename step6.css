@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+
+form {
+  display: inline-block;
+  /* フォームの外枠 */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
