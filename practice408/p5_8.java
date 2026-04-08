@@ -17,7 +17,7 @@ public class p5_8 {
         }
             System.out.println();
             i=0;
-            while(i<data.length){   //平均値以上、平均値以下の振り分け
+            while(i<data.length){   //0以上、0以下,0pの振り分け
                 if(data[i]>0){
                     n++;
                 }else if(data[i]<0){
